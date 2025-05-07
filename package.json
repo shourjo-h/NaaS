@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/shourjo-h/NaaS/issues"
   },
-  "homepage": "https://github.com/shourjo-h/NaaS#readme"
+  "homepage": "https://github.com/shourjo-h/NaaS#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
 }
