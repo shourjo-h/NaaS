@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A simple web application that fetches a \"No\" response from an external API and displays it on the page.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -1,7 +1,7 @@
 // filepath: netlify/functions/getReason.js
-const fetch = require('node-fetch');
+import fetch from 'node-fetch';
 
-exports.handler = async function () {
+export const handler = async function () {
   try {
     const response = await fetch('https://naas.isalman.dev/no');
     const data = await response.json();
@@ -10,6 +10,7 @@ exports.handler = async function () {
       body: JSON.stringify(data),
     };
   } catch (error) {
+    console.error("Error fetching data:", error);
     return {
       statusCode: 500,
       body: JSON.stringify({ error: 'Failed to fetch data from the API' }),
