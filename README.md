@@ -43,7 +43,7 @@ This project is deployed on Netlify. To deploy it yourself:
 3. Visit the deployed URL to see the application in action.
 
 ## Attribution
-The API used in this project (https://naas.isalman.dev/no) was created and hosted by [hotheadhacker](). Full credit goes to them for providing this service.
+The API used in this project (https://naas.isalman.dev/no) was created and hosted by [hotheadhacker](https://github.com/hotheadhacker/no-as-a-service.git). Full credit goes to them for providing this service.
 
 ## Troubleshooting
 
