@@ -1,7 +1,7 @@
 // filepath: netlify/functions/getReason.js
-import fetch from 'node-fetch';
+const fetch = require('node-fetch');
 
-export const handler = async function () {
+exports.handler = async function () {
   try {
     const response = await fetch('https://naas.isalman.dev/no');
     const data = await response.json();
