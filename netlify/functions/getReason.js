@@ -12,7 +12,7 @@ exports.handler = async function () {
   } catch (error) {
     return {
       statusCode: 500,
-      body: JSON.stringify({ error: 'Failed to fetch data' }),
+      body: JSON.stringify({ error: 'Failed to fetch data from the API' }),
     };
   }
 };
