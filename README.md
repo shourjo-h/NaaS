@@ -72,4 +72,4 @@ If the API is down or unreachable, the page will display the fallback message:
 
 ## License
 
-This project is open-source and available under the MIT License.
+This project is open-source and available under the [MIT License](https://github.com/shourjo-h/NaaS/blob/d7f7d7a13d84a8cc25159eef72d1e2eed90e3602/LICENSE).
