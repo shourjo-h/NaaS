@@ -11,9 +11,9 @@ A simple web application that fetches a "No" response from an external API and d
 ## Project Structure
 
 naas/
-├── index.html           # Main HTML file
-├── icons8-cloud-cross.gif # Favicon for the website
-└── README.md            # Project documentation
+├── index.html                # Main HTML file
+├── icons8-cloud-cross.gif    # Favicon for the website
+└── README.md                 # Project documentation
 
 
 ## How to Use
